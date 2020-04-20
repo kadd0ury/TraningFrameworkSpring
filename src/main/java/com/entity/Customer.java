@@ -38,7 +38,7 @@ public class Customer{
     @ManyToMany 
     @JoinTable(name="customerTomagasin", joinColumns={@JoinColumn(referencedColumnName="id")}
     , inverseJoinColumns={@JoinColumn(referencedColumnName="id")})
-    private List <Store>listeStore ;
+    private List <Store>listeStore;
     
     
     public Customer() {

@@ -69,13 +69,12 @@
        <div class="col-md-9">
         <c:forEach items="${listStores}" var="store">
             <form:checkbox path="listeStore" value="${store.id}" label="${store.nom}"/>
+             
                 </c:forEach>
+  
 
        </div>
       </div>
-      
-       
-
       <div class="form-group">
        <!-- Button -->
        <div class="col-md-offset-3 col-md-9">
